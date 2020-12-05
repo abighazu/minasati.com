@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image/imghome.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.menu-bar{
+    background: rgb(148, 241, 218);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    text-align: #fff;
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 40px;
+    padding: 15px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu-bar p{
+    text-align: #fff;
+}
+
+.active, .menu-bar ul li:hover {
+    background: #0fffff;
+    border-radius: 3px;
+}
+.text {
+    text-align: right;
+    color: rgb(55, 104, 92);
+}
+.text h1{
+    font-size: 100px;
+    size: 20px;
+}
